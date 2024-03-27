@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet"
+        href="../libraries/ספריית אייקונים - font awesome/fontawesome-free-5.12.0-web/fontawesome-free-5.12.0-web/css/all.css">
+    <link href="../libraries/assets/dist/css/bootstrap.rtl.min.css" rel="stylesheet">
+    <link rel="stylesheet"
+        href="../libraries/bootstrap/bootstrap-5.3.0-examples/bootstrap-5.3.0-examples/cheatsheet/cheatsheet.rtl.css">
+    <link rel="stylesheet" href="../style/surveyAndElection.css">
+    <link rel="stylesheet" href="../style/general.css">
+
+</head>
+
+<body>
+
+    <!-- ניווט עליון -->
+    <header data-bs-theme="dark">
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+            <div class="container-fluid" id="navBox">
+
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav me-auto mb-2 mb-md-0" id="ulNav">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="./homePage.html"><img
+                                    src="../assets/logo/whiteSmallLogo.svg" width="20px"></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="./ourBuilding.html">> הבניין שלך</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="./tenantPersonal.html">> איזור אישי</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#">> סקר דיירים</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="nav-scroller bg-body shadow-sm">
+                    <nav class="nav" aria-label="Secondary navigation">
+                    </nav>
+                  </div>
+          
+                  <div>
+                    <a class="navbar-brand" href="#" id="personalArea">איזור אישי</a>
+                    <i class="fas fa-home" id="homeIcon"></i>
+                  </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="mainContainer-special">
+        <!-- כותרת -->
+        <div>
+            <i class="fas fa-comments" id="bigIcon"></i>
+        </div>
+        <h1 class="titlePage">סקר דיירים</h1>
+
+        <!-- הודעה שמגיעה לאחר אישור התשובות -->
+        <div class="alert alert-light alert-dismissible fade show" role="alert" id="formAlert" style="display: none;">
+            <h1>התשובות נשמרו</h1>
+            <h2>תודה על חלקך בהובלת הבניין! </h2>
+            <a href="./surveyResults.html" class="alert-link">לתוצאות הסקר</a>
+            <button type="button" class="btn-close" id="backPersonal"></button>
+        </div>
+
+        <!-- טופס הסקר -->
+        <form id="formSurvey">
+
+            <h2 class="sticky-xl-top fw-bold pt-3 pt-xl-5 pb-2 pb-xl-3">נא השב במחשבה ובכנות</h2>
+
+            <!-- 1 -->
+            <fieldset class="mb-3">
+                <legend>כמה שנים אתה גר בבניין?</legend>
+                <div class="mb-3 form-check">
+                    <label for="fsYearsOp1" class="form-check-label">דייר חדש- פחות משנה</label>
+                    <input class="form-check-input" type="radio" id="fsYearsOp1" name="fsYears" defaultSelected>
+                </div>
+                <div class="mb-3 form-check">
+                    <label for="fsYfsYearsOp2ears" class="form-check-label">דייר פלטיניום- בין שנה לחמש שנים</label>
+                    <input type="radio" class="form-check-input" id="fsYearsOp2" name="fsYears" >
+
+                </div>
+                <div class="mb-3 form-check">
+                    <label for="fsYearsOp3" class="form-check-label">דייר זהב- למעלה מחמש שנים</label>
+                    <input type="radio" class="form-check-input" id="fsYearsOp3" name="fsYears" >
+
+                </div>
+            </fieldset>
+            <!-- 2 -->
+            <div class="mb-3">
+                <legend>מה רמת שביעות הרצון שלך מהניקיון בבניין?</legend>
+                <label for="fsIsGood"></label>
+                <input type="range" id="fsIsGood" max step="5" min step="1" step="1" width="50%" class="form-range"
+                    required>
+            </div>
+            <!-- 3 -->
+            <div class="mb-3">
+                <legend>מהו הצבע האהוב עליך?</legend>
+                <label for="fsColor" class="form-label"></label>
+                <select id="fsColor" class="form-select" required>
+                    <option id="fsColorOp1">אפרסק </option>
+                    <option id="fsColorOp2">ירוק </option>
+                    <option id="fsColorOp3">שמנת </option>
+                    <option id="fsColorOp4">צהוב </option>
+                    <option id="fsColorOp4">לבן </option>
+                </select>
+            </div>
+            <!-- 4 -->
+            <div class="mb-3">
+                <legend>כמה ילדים במשפחתך?</legend>
+                <label for="fsChild"></label>
+                <input type="number" id="fsChild" min=0 max=21 class="form-control" defaultValue=0>
+            </div>
+            <!-- 5 -->
+            <fieldset class="mb-3">
+                <legend>מהן שעות המנוחה שלך?</legend>
+                <div class="mb-3 form-check">
+                    <label for="fsSleepOp1" class="form-check-label">4 - 2, לפי הספר</label>
+                    <input type="radio" id="fsSleepOp1" name="fsSleep" class="form-check-input" required>
+                </div>
+                <div class="mb-3 form-check">
+                    <label for="fsSleepOp2" class="form-check-label">מרגע סיום הארוחה ועד כמה שמתאפשר לי</label>
+                    <input type="radio" id="fsSleepOp2" name="fsSleep" class="form-check-input" required>
+                </div>
+                <div class="mb-3 form-check">
+                    <label for="fsSleepOp3" class="form-check-label">גמיש</label>
+                    <input type="radio" id="fsSleepOp3" name="fsSleep" class="form-check-input" required>
+                </div>
+                <div class="mb-3 form-check">
+                    <label for="fsSleepOp4" class="form-check-label">אין לי זמן לנוח!</label>
+                    <input type="radio" id="fsSleepOp4" name="fsSleep" class="form-check-input" required>
+                </div>
+            </fieldset>
+            <!-- 6 -->
+            <div class="mb-3">
+                <legend>בחר את וועד הבית הבא!</legend>
+                <p> יש לאיית במדוייק את שם המשפחה שברצונך לבחור</p>
+                <input type="text" id="fsComm" class="form-control">
+                <br>
+            </div>
+            <!-- אישור הטופס -->
+            <div class="mb-3">
+                <button type="submit" id="fsOk" class="btn btn-primary">אישור ושליחה</button>
+            </div>
+        </form>
+
+    </div>
+
+
+    <script src="../script/jquery-3.6.4.min.js"></script>
+    <script src="../script/surveyAndElection.js"></script>
+    <script src="../libraries/assets/dist/js/bootstrap.bundle.min.js"></script>
+    <script
+        src="../libraries/bootstrap/bootstrap-5.3.0-examples/bootstrap-5.3.0-examples/cheatsheet/cheatsheet.js"></script>
+    <script src="../script/script.js"></script>
+
+</body>
+
+</html>

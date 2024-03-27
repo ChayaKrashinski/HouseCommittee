@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet"
+    href="../libraries/bootstrap/bootstrap-5.3.0-examples/bootstrap-5.3.0-examples/cheatsheet/cheatsheet.rtl.css">
+  <link rel="stylesheet"
+    href="../libraries/ספריית אייקונים - font awesome/fontawesome-free-5.12.0-web/fontawesome-free-5.12.0-web/css/all.css">
+  <link href="../libraries/assets/dist/css/bootstrap.rtl.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="../style/general.css">
+  <link rel="stylesheet" href="../style/tenantPersonal.css">
+
+</head>
+
+<body>
+  <!-- ניווט עליון -->
+  <header data-bs-theme="dark">
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <div class="container-fluid" id="navBox">
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0" id="ulNav">
+            <li class="nav-item">
+              <a class="nav-link active" href="./homePage.html"><img src="../assets/logo/whiteSmallLogo.svg"
+                  width="20px"></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="./ourBuilding.html">> הבניין שלך </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="./tenantPersonal.html">> איזור אישי </a>
+            </li>
+          </ul>
+        </div>
+        <div class="nav-scroller bg-body shadow-sm">
+          <nav class="nav" aria-label="Secondary navigation">
+
+            <button id="surveyLink" type="button" class="nav-link" data-bs-toggle="modal" data-bs-target="#staticBackdropLive">
+              <i class="fas fa-comments" id="navIcons"></i>סקר דיירים
+            </button>
+
+
+            <button class="nav-link" type="button" data-bs-toggle="modal"
+              data-bs-target="#staticBackdropLive2"><i class="fas fa-credit-card" id="navIcons"></i> חובות
+              ותשלומים
+            </button>
+
+            <button class="nav-link" type="button" data-bs-toggle="modal"
+              data-bs-target="#exampleModalCenteredScrollable"><i class="fas fa-user-edit" id="navIcons"></i>עדכון פרטים
+              אישיים
+            </button>
+          </nav>
+        </div>
+
+        <div>
+          <a class="navbar-brand" href="#" id="personalArea">איזור אישי</a>
+          <i class="fas fa-home" id="homeIcon"></i>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+
+  <div class="mainContainer">
+    <!-- כותרת -->
+    <div>
+      <i class="fas fa-home" id="bigIcon"></i>
+    </div>
+    <h1 class="titlePage">איזור אישי</h1>
+
+    <!-- תוכן עמוד -->
+    <div id="mainContain">
+      <!-- זיהוי משתמש -->
+      <h2 id="myName">שלום </h2>
+
+      <!-- מלל הסבר -->
+      <div id="text">
+        <h3>באיזור האישי ניתנת לך גישה לסקר ייחודי בהשתתפות כלל דיירי הבניין.</h3>
+        <h3>בנוסף, תוכל לנהל את תשלומי וועד בית שלך ובעתיד אף לעדכן פרטים אישיים</h3>
+      </div>
+
+      <!-- הודעה למשתמש -->
+      <div class="modal fade" id="exampleModalCenteredScrollable" tabindex="-1"
+        aria-labelledby="exampleModalCenteredScrollableTitle" style="display: none;" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+          <div class="modal-content" id="boxMessege">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalCenteredScrollableTitle">מצטערים, אפשרות זו אינה זמינה כרגע
+              </h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body" id="middleMessege">
+              <p>אנו בלידינג בילדינג עובדים כל העת לפיתוח יכולות מתקדמות בממשק ניהול בניין המוביל שלנו.</p>
+              <a id="otherColor" href="./about.html">עקבו אחר העדכונים!</a>
+            </div>
+            <div class="modal-footer" id="bottomMessege">
+              <h5>שלכם תמיד, לידינג בילדינג - צוות פיתוח</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- חוב לוועד בית -->
+      <div class="modal fade" id="staticBackdropLive2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLiveLabel" style="display: none;" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header" id="titleDebt">
+              <div id="titleDebtText">
+                <i class="fas fa-credit-card" id="smIcon"></i>
+                <h1 class="modal-title fs-2" id="whoI">חובות ותשלומים</h1>
+              </div>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div id="theDebts">
+                <h5 id="mydebt">יש לך יתרת חוב ע"ס: </h5>
+              </div>
+            </div>
+            <div class="modal-footer" id="buttonDebt">
+              <h5>אפשרות תשלום דרך האתר באשראי כעת בשלבי פיתוח מתקדמים. המתינו בסבלנות!</h5>
+              <button type="button" class="btn btn-primary" id="" disabled>תשלום</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- מענה לסקר הדיירים -->
+      <div class="modal fade" id="staticBackdropLive" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLiveLabel" style="display: none;" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-2" id="exampleModalLabel">שים לב!</h1>
+            </div>
+            <div class="modal-body">
+              בסקר זה הינך יכול להשתתף פעם אחת בלבד בתקופת וועד הבית הנוכחי.
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary" id="elseOnce" data-bs-dismiss="modal">פעם אחרת</button>
+              <button type="button" class="btn btn-secondary"  id="enterToSurvey">לענות עכשו</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <script src="../script/jquery-3.6.4.min.js"></script>
+      <script src="../script/script.js"></script>
+      <script src="../script/tenantPersonal.js"></script>
+      <script src="../libraries/assets/dist/js/bootstrap.bundle.min.js"></script>
+      <script
+        src="../libraries/bootstrap/bootstrap-5.3.0-examples/bootstrap-5.3.0-examples/cheatsheet/cheatsheet.js"></script>
+</body>
+
+</html>

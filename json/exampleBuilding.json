@@ -1,0 +1,206 @@
+[
+    {
+        "code": "9900",
+        "address": "רח' האותיות 22",
+        "tanents": [
+            {
+                "code": "9910",
+                "parents_name": " אייזיק ואודל",
+                "family": "אורן",
+                "telephone": "05276-58987",
+                "floor": 2,
+                "debt": 120,
+                "Icomm": 0
+            },
+            {
+                "code": "9901",
+                "parents_name": "בעריש ובינה",
+                "family": "בריזל",
+                "telephone": "05271-12387",
+                "floor": 2,
+                "debt": 20,
+                "Icomm": 0
+            },
+            {
+                "code": "9902",
+                "parents_name": "גדעון וגולדי",
+                "family": "גוטליב",
+                "telephone": "05331-50230",
+                "floor": 1,
+                "debt": 0,
+                "Icomm": 0
+            },
+            {
+                "code": "9903",
+                "parents_name": "דב ודבורה",
+                "family": "דקל",
+                "telephone": "05276-37915",
+                "floor": 1,
+                "debt": 0,
+                "Icomm": 0
+            },
+            {
+                "code": "9904",
+                "parents_name": "הרש והניה",
+                "family": "הומינר",
+                "telephone": "05271-00033",
+                "floor": 0,
+                "debt": 18,
+                "Icomm": 0
+            },
+            {
+                "code": "9905",
+                "parents_name": "וולף וורד",
+                "family": "ורשנר",
+                "telephone": "05484-91357",
+                "floor": 0,
+                "debt": 300,
+                "Icomm": 0
+            },
+            {
+                "code": "9906",
+                "parents_name": "זבולון וזיוה",
+                "family": "זהבי",
+                "telephone": "05485-80716",
+                "floor": -1,
+                "debt": 8,
+                "Icomm": 0
+            },
+            {
+                "code": "9907",
+                "parents_name": "חנוך וחוה",
+                "family": "חורש",
+                "telephone": "05276-58987",
+                "floor": -1,
+                "debt": 0,
+                "Icomm": 0
+            },
+            {
+                "code": "9908",
+                "parents_name": "טוביה וטובה",
+                "family": "טהלר",
+                "telephone": "05271-34281",
+                "floor": -2,
+                "debt": 50,
+                "Icomm": 0
+            },
+            {
+                "code": "9909",
+                "parents_name": "יקותי ויפי",
+                "family": "ירושלמי",
+                "telephone": "05832-99999",
+                "floor": -2,
+                "debt": 0,
+                "Icomm": 0
+            },
+            {
+                "code": "9920",
+                "parents_name": "כתריאל וכוכבה",
+                "family": "כרמל",
+                "telephone": "05331-86891",
+                "floor": 5,
+                "debt": 265,
+                "Icomm": 0
+            },
+            {
+                "code": "9911",
+                "parents_name": "למך ולאה",
+                "family": "ליבר",
+                "telephone": "05484-36890",
+                "floor": 3,
+                "debt": 250,
+                "Icomm": 0
+            },
+            {
+                "code": "9912",
+                "parents_name": "מרדכי ומיה",
+                "family": "מילר",
+                "telephone": "אין מספר",
+                "floor": 6,
+                "debt": 3000,
+                "Icomm": 0
+            },
+            {
+                "code": "9913",
+                "parents_name": "נחמן ונועה",
+                "family": "ניקלבוים",
+                "telephone": "05567-80015",
+                "floor": 3,
+                "debt": 85,
+                "Icomm": 0
+            },
+            {
+                "code": "9914",
+                "parents_name": "סמואל וסימה",
+                "family": "סילברמן",
+                "telephone": "05271-81937",
+                "floor": 4,
+                "debt": 2,
+                "Icomm": 0
+            },
+            {
+                "code": "9915",
+                "parents_name": "עטרה ",
+                "family": "עבאדי",
+                "telephone": "05484-30210",
+                "floor": 4,
+                "debt": 5,
+                "Icomm": 0
+            },
+            {
+                "code": "9916",
+                "parents_name": "פנחס ופועה",
+                "family": "פאר",
+                "telephone": "05485-85859",
+                "floor": 4,
+                "debt": 8,
+                "Icomm": 0
+            },
+            {
+                "code": "9917",
+                "parents_name": "צבי וצירל",
+                "family": "צדוק",
+                "telephone": "05832-70685",
+                "floor": 5,
+                "debt": 0,
+                "Icomm": 0
+            },
+            {
+                "code": "9918",
+                "parents_name": "קלונימוס וקריינה",
+                "family": "קהאן",
+                "telephone": "05485-77411",
+                "floor": 5,
+                "debt": 120,
+                "Icomm": 0
+            },
+            {
+                "code": "9919",
+                "parents_name": "רובי ורות",
+                "family": "רבי",
+                "telephone": "05832-16725",
+                "floor": -4,
+                "debt": 2000,
+                "Icomm": 0
+            },
+            {
+                "code": "9920",
+                "parents_name": "שמעון ושושנה",
+                "family": "שרון",
+                "telephone": "05484-97312",
+                "floor": -4,
+                "debt": 0,
+                "Icomm": 0
+            },
+            {
+                "code": "9921",
+                "parents_name": "תנחום ותהילה",
+                "family": "תורן",
+                "telephone": "05276-00334",
+                "floor": -4,
+                "debt": 500,
+                "Icomm": 0
+            }
+        ]
+    }
+]

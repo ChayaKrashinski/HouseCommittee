@@ -1,0 +1,51 @@
+<html>
+<head>
+	<title>כרמלה - גופן מסך עברי - הוראות הטמעה</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" href="specimen_files/reset.css" type="text/css" charset="utf-8" />
+	<link rel="stylesheet" href="style.css" type="text/css" charset="utf-8" />
+	<link rel="stylesheet" href="specimen_files/style.css" type="text/css" charset="utf-8" />
+</head>
+<body>
+	<h1>
+		כרמלה - הוראות הטמעה	
+ 	</h1>
+	<div class="wrapper">
+		<p>
+ 			1. יש להעתיק את תייקית <span class="eng">Fonts</span> לתיקיית ה-<span class="eng">CSS</span> באתר שלכם.
+ 		</p>
+ 		<p>
+ 			2. יש להוסיף את הקוד הבא לתחילת קובץ ה-<span class="eng">CSS</span>:
+ 		</p>
+		<div class="coder">
+	 		<code>
+				@font-face {<br/>font-family: 'Carmela';<br/>src: url('Fonts/carmela.eot');<br/>src: url('Fonts/carmela.eot?#iefix') format('embedded-opentype'),<br/>url('Fonts/carmela.woff') format('woff'),<br/>url('Fonts/carmela.ttf') format('truetype');<br/>font-weight: normal;<br/>font-style: normal;<br/>}
+			</code>
+		</div>
+		<p>
+			3. יש להגדיר את הגופן, לדוגמא:
+		</p>	
+		<div class="coder">
+			<code>
+				body {<br/>
+				font-family:Carmela;<br/>
+				font-size:15x;<br/>
+				line-height:18px;<br/>
+				font-weight:normal;<br/>
+				}
+			</code>
+		</div>
+		<p>
+			חשוב! נכון לכרגע לא קיימת גרסת בולד, ולכן אין להשתמש בגופן לצורך הדגשות, הדפדפן מעוות את הגופן.
+		</p>
+		<p>
+			כדי לוודא שהגופן מוגדר כמו שצריך, שימו לב לשמות התיקיות והקבצים, ולאותיות גדולות או קטנות.
+		</p>
+		<p class="bluey">
+			&#x2709; לשאלות נוספות, אנא צרו קשר <a href="mailto:info@carmelaforever.com?subject=כרמלה - עזרה בהטמעה">כאן</a>
+		</p>
+	</div>
+		<p class="credit">עיצוב הגופן: <a href="mailto:yennok@gmail.com">ניר ייני</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;תכנות: <a href="mailto:jonathanadler2@gmail.com">יונתן אדלר</a></p>
+
+</body>
+</html>

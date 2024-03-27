@@ -1,0 +1,87 @@
+@font-face {
+    font-family: 'UbuntuMonoRegular';
+    src: url('Ubuntu/UbuntuMono-R-webfont.eot');
+    src: url('Ubuntu/UbuntuMono-R-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Ubuntu/UbuntuMono-R-webfont.woff') format('woff'),
+         url('Ubuntu/UbuntuMono-R-webfont.ttf') format('truetype'),
+         url('Ubuntu/UbuntuMono-R-webfont.svg#UbuntuMonoRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'UbuntuRegular';
+    src: url('Ubuntu/Ubuntu-R-webfont.eot');
+    src: url('Ubuntu/Ubuntu-R-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Ubuntu/Ubuntu-R-webfont.woff') format('woff'),
+         url('Ubuntu/Ubuntu-R-webfont.ttf') format('truetype'),
+         url('Ubuntu/Ubuntu-R-webfont.svg#UbuntuRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body{
+	
+	background-color:blue;
+	font-family:carmela;
+	font-size:15px;
+	line-height:18px;
+		direction:rtl;
+
+	}
+
+h1{
+	font-size:40px;
+	text-align:center;
+	letter-spacing:-2px;
+	color:white;
+	padding:100px 0 20px;
+}
+.wrapper {
+	margin: 0 auto ;
+	width:331px;
+	background-color:white;
+	padding:20px;
+	
+}
+
+p{
+	text-align:right;
+	margin-bottom:5px;
+}
+code {
+	direction:ltr;
+	font-family:'UbuntuMonoRegular';
+	text-align:left;
+	font-size:13px;
+	line-height:14px;
+	
+}
+
+.coder {
+		margin-bottom:50px;
+direction:ltr;
+}
+
+.eng {
+	font-family:'UbuntuRegular';
+	font-size:13px;
+	line-height:14px;
+}	
+
+.bluey {
+	margin-top:40px;
+	color:blue;
+}
+
+a { color:blue;}
+
+.credit{
+	text-align:center;
+	margin-top:12px;
+}
+.credit a {color:black;text-decoration:none;}
+
+.credit a:hover{text-decoration:underline;}

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet"
+    href="../libraries/ספריית אייקונים - font awesome/fontawesome-free-5.12.0-web/fontawesome-free-5.12.0-web/css/all.css">
+  <link rel="stylesheet"
+    href="../libraries/bootstrap/bootstrap-5.3.0-examples/bootstrap-5.3.0-examples/cheatsheet/cheatsheet.rtl.css">
+  <link rel="stylesheet"
+    href="../libraries/bootstrap/bootstrap-5.3.0-examples/bootstrap-5.3.0-examples/carousel/carousel.rtl.css">
+  <link rel="stylesheet" href="../libraries/assets/dist/css/bootstrap.rtl.min.css">
+  <link rel="stylesheet" href="../style/general.css">
+  <link rel="stylesheet" href="../style/ourBuilding.css">
+
+
+</head>
+
+<body>
+
+  <!-- ניווט עליון -->
+  <header data-bs-theme="dark">
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <div class="container-fluid" id="navBox">
+
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0" id="ulNav">
+            <li class="nav-item">
+              <a class="nav-link active" href="./homePage.html"><img src="../assets/logo/whiteSmallLogo.svg"
+                  width="20px"></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">>הבניין שלך </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="nav-scroller bg-body shadow-sm">
+          <nav class="nav" aria-label="Secondary navigation">
+            <button class="nav-link" href="./tenantPersonal.html" id="myArea"><i class="fas fa-home"
+                id="navIcons"></i>איזור אישי </button>
+            <button id="ICommittee" class="nav-link" href="./houseCommittee.html"><i class="fas fa-id-card-alt"
+                id="navIcons"></i>וועד בית </button>
+            <a class="nav-link" href="./tenantList.html"><i class="fas fa-list-alt" id="navIcons"></i>רשימת הדיירים </a>
+            <a class="nav-link" href="./surveyResults.html"><i class="fas fa-hand-peace" id="navIcons"></i>תוצאות הסקר
+            </a>
+          </nav>
+        </div>
+
+        <div>
+          <a class="navbar-brand" href="#" id="personalArea">איזור אישי</a>
+          <i class="fas fa-home" id="homeIcon"></i>
+        </div>
+
+      </div>
+    </nav>
+  </header>
+
+  <!-- תוכן עמוד -->
+  <div class="mainContainer">
+
+    <!-- סיסמאות כניסה לקישורים בניווט -->
+    <div class="mb-3" id="tanentPersonal">
+      <input class="form-control form-control-lg" placeholder="הקש סיסמה אישית" aria-label=".form-control-lg example"
+        type="text" id="myCode">
+    </div>
+    <div class="mb-3" id="committeeCode">
+      <input class="form-control form-control-lg" placeholder="הקש סיסמת וועד בית" aria-label=".form-control-lg example"
+        type="text" id="commCode">
+    </div>
+
+    <!-- כותרת -->
+    <div>
+      <i class="fas fa-building" id="bigIcon"></i>
+    </div>
+    <h1 class="titlePage">הבניין שלנו חברהמן</h1>
+    <h2 id="myBuildingAddress"></h2>
+
+    <!-- לוח מודעות -->
+    <div class="col-md-6">
+      <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+        <div class="col p-4 d-flex flex-column position-static">
+          <div class="titleBox"><i class="fas fa-comment-dots" id="smallIcon"></i>
+            <h3 class="mb-0">לוח מודעות</h3>
+          </div>
+          <p class="card-text mb-auto"></p>
+          <div id="tasksBox">
+            <div id="tasksContiner">
+              <div id="ourNotice">
+
+                <div class="input-group">
+                  <button id="sendNotice" class="input-group-text">שליחה</button>
+                  <textarea id="myNotice" class="form-control" aria-label="With textarea"
+                    placeholder="כתוב כאן את ההודעה שלך"></textarea>
+                </div>
+                <ul id="noticesList">
+                  <!-- <li></li> -->
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="../script/jquery-3.6.4.min.js"></script>
+    <script src="../script/ourBuilding.js"></script>
+    <script
+      src="../libraries/bootstrap/bootstrap-5.3.0-examples/bootstrap-5.3.0-examples/cheatsheet/cheatsheet.js"></script>
+    <script src="../script/script.js"></script>
+    <script src="../libraries/assets/dist/js/bootstrap.bundle.min.js"></script>
+
+  </div>
+
+</body>
+
+</html>

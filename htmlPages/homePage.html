@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet"
+    href="../libraries/ספריית אייקונים - font awesome/fontawesome-free-5.12.0-web/fontawesome-free-5.12.0-web/css/all.css">
+  <link rel="stylesheet"
+    href="../libraries/bootstrap/bootstrap-5.3.0-examples/bootstrap-5.3.0-examples/carousel/carousel.rtl.css">
+  <link rel="stylesheet" href="../libraries/assets/dist/css/bootstrap.rtl.min.css">
+  <link rel="stylesheet" href="../style/general.css">
+  <link rel="stylesheet" href="../style/homePage.css">
+
+</head>
+
+<body>
+
+  <svg style="display: none;">
+    <symbol id="house-door-fill" viewBox="0 0 16 16">
+      <path
+        d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5z" />
+    </symbol>
+  </svg>
+
+  <!-- ניווט עליון -->
+  <header data-bs-theme="dark">
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <div class="container-fluid" id="navBox">
+
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0" id="ulNav">
+            <li class="nav-item">
+              <a class="nav-link active" href="#"><img src="../assets/logo/whiteSmallLogo.svg" width="20px">
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="nav-scroller bg-body shadow-sm">
+          <nav class="nav" aria-label="Secondary navigation">
+          </nav>
+        </div>
+
+        <div>
+          <a class="navbar-brand" href="#" id="personalArea">איזור אישי</a>
+          <i class="fas fa-home" id="homeIcon"></i>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+<!-- תכולת עמוד -->
+  <div id="bogBox">
+
+    <div class="mainContainer">
+      <!-- לוגו וכותרת -->
+      <div class="b-example-divider"></div>
+      <div id="logo">
+      </div>
+      <h1 class="titlePage">לידינג בילדינג</h1>
+
+      <!-- קישורים ואפשרויות -->
+      <div id="loginBtns">
+        <div id="LoginBuilding" class="loginBtn">
+          <button id="enter" class="btn btn-dark rounded-pill px-3">כניסה</button>
+          <input type="text" id="myBuildingCode" placeholder="הקש סיסמה" style="display: none;" class="form-control">
+        </div>
+        <div id="LoginRegister" class="loginBtn">
+          <button id="register" class="btn btn-dark rounded-pill px-3">הרשמה</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  
+  <script src="../script/jquery-3.6.4.min.js"></script>
+  <script src="../script/jquery.js"></script>
+  <script src="../libraries/assets/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="../script/script.js"></script>
+  <script src="../script/homePage.js"></script>
+
+</body>
+
+</html>

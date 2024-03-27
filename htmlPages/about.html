@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet"
+        href="../libraries/ספריית אייקונים - font awesome/fontawesome-free-5.12.0-web/fontawesome-free-5.12.0-web/css/all.css">
+    <link rel="stylesheet"
+        href="../libraries/bootstrap/bootstrap-5.3.0-examples/bootstrap-5.3.0-examples/cheatsheet/cheatsheet.rtl.css">
+    <link href="../libraries/assets/dist/css/bootstrap.rtl.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../style/general.css">
+    <link rel="stylesheet" href="../style/about.css">
+</head>
+
+<body>
+
+    <!-- ניווט עליון -->
+    <header data-bs-theme="dark">
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+            <div class="container-fluid" id="navBox">
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav me-auto mb-2 mb-md-0" id="ulNav">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="./homePage.html"><img
+                                    src="../assets/logo/whiteSmallLogo.svg" width="20px"></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="./registerAndDatails.html">>הרשמה ופרטים </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#">>אודות </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="nav-scroller bg-body shadow-sm">
+                    <nav class="nav" aria-label="Secondary navigation">
+                        <a class="nav-link" href="#whoUs" id=""><i class="fas fa-id-card" id="navIcons"></i>מי
+                            אנחנו</a>
+                        <a class="nav-link" href="#whatNew" id=""><i class="fas fa-star" id="navIcons"></i>מה חדש</a>
+                        <a class="nav-link" href="#contact" id=""><i class="fas fa-comment" id="navIcons"></i>יצירת קשר</a>
+                    </nav>
+                </div>
+                <div id="personalLink">
+                    <a class="navbar-brand" href="#" id="personalArea">איזור אישי</a>
+                        <i class="fas fa-home" id="homeIcon"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+        <!-- תכולת העמוד -->
+    <div class="mainContainer">
+        <div class="mainContain">
+            <div>
+                <i class="fas fa-id-card" id="bigIcon"></i>
+            </div>
+            <h1 class="titlePage">אודותינו</h1>
+            <div id="whoUs">
+                <div>
+                    <h1>לידינג בילדינג- ממשק ניהול לבניינים מובילים</h1>
+                    <h2>משנת 2023 אנחנו כבר על המפה במלוא המרץ, שואפים לעוד פרויקטים מדהימים נוספים למי שאוהב להוביל
+                    </h2>
+                    <p>הכל החל מקורס JS שלמדה אחת המפתחות הבכירות שלנו. הרעיון נצנץ בה כבר אז, והיא המשיכה לפתח אותו יחד
+                        עם הצוות המוביל שלנו עד לתוצאה המדהימה שבה אתם משתמשים כעת.</p>
+                    <h3>אז מה יש לאתר שלנו להציע?</h3>
+                    <p>אתם משמשים בבניין שלכם כוועד בית? או שאולי סתם שכנים אכפתים שרוצים למנף את ניהול הבניין שלכם</p>
+                    <p>באתר שלנו לוח מודעות נגיש וברור לכלל הדיירים, איזור אישי משודרג לכל דייר, איזור לוועד בית ועוד
+                        שלל אפשרויות מרתקות.</p>
+                    <h3>איך הבניין שלנו יכול להצטרף לממשק?</h3>
+                    <p>פשוט וקל! נרשמים דרך האתר - ראה קישור בניווט העמוד.</p>
+                    <h3>נרשמנו. איך נכנסים לבניין שלנו?</h3>
+                    <p>לאחר שתירשמו, תקבלו קוד בניין וקוד אישי לכל דייר בנפרד.</p>
+
+                </div>
+            </div>
+            <div id="whatNew">
+                <h2>מה חדש?</h2>
+                <p>בשם רבים רבים ממשתמשי האתר - תודה למפתחים הדגולים!</p>
+                <p>בתאריך 10/10/2023 צפוי האתר להשתדרג משמעותית!!! (נתון לשינוי)</p>
+                <p>בתאריך 01/01/2024 נחל בפרויקט חדש. מהו? התעדכנו! (צפי משוער)</p>
+                <p>אנו מתחדשים כל העת בפונקציות משוכללות</p>
+                <p>התעדכנו בתדירות, ואל תפספסו את העדכונים החשובים!</p>
+            </div>
+        </div>
+
+        <!-- מתחלף -->
+        <div id="myCarousel" class="carousel slide mb-2" data-bs-ride="carousel" data-bs-theme="light">
+            <div class="carousel-indicators" id="contact">
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class=""
+                    aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"
+                    class=""></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"
+                    class="active" aria-current="true"></button>
+            </div>
+
+            <div class="carousel-inner" id="divBox">
+                <div class="carousel-item" id="">
+                    <svg id="divBox" class="bd-placeholder-img" width="100%" height="100%"
+                        xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice"
+                        focusable="false">
+                    </svg>
+                    <div id="divBox" class="container">
+                        <div class="carousel-caption text-start">
+                            <h1>לידינג בילדינג.</h1>
+                            <p class="">אתם משתמשים עכשו בעוד אחד מהפרויקטים המובילים של החברה שלנו</p>
+                            <p><a id="tBtn" class="btn btn-lg btn-primary"
+                                    href="mailto:lidingBuilding@gmail.com?subject=יצירת קשר&body=מעוניינים ליצור קשר עם צוות פיתוח">ליצירת
+                                    קשר עם צוות הפיתוח</a></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+                        aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+                    </svg>
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1>האתר שלנו</h1>
+                            <p>לידינג בילדינג. ממשק ניהול מתקדם לניהול הבניין של המחר</p>
+                            <p><a id="tBtn" class="btn btn-lg btn-primary"
+                                    href="mailto:lidingBuilding@gmail.com?subject=מידע על החברה&body=שאלה">יש לכם
+                                    שאלה?</a></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item active">
+                    <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+                        aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+                    </svg>
+                    <div class="container">
+                        <div class="carousel-caption text-end">
+                            <h1>שירות מוביל.</h1>
+                            <p>שירות ותמיכה בזמינות על</p>
+                            <p><a id="tBtn" class="btn btn-lg btn-primary"
+                                    href="mailto:lidingBuilding@gmail.com?subject=יצירת קשר&body=מעוניינים ליצור קשר ישיר">לשליחת
+                                    אימייל
+                                    למוקד תמיכה</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+    <script src="../script/jquery-3.6.4.min.js"></script>
+    <script src="../libraries/assets/dist/js/bootstrap.bundle.min.js"></script>
+    <script
+        src="../libraries/bootstrap/bootstrap-5.3.0-examples/bootstrap-5.3.0-examples/cheatsheet/cheatsheet.js"></script>
+    <script src="../script/script.js"></script>
+</body>
+
+</html>
