@@ -1,59 +1,65 @@
-Neighborhood Management Web App
+# Neighborhood Management Web App
+
 This web application is designed to manage various tasks related to neighborhood management, including managing neighbors lists, paying dues to the house committee, sending messages to neighbors, displaying reminders from the house committee, and providing information about the site.
 
-Features
-Neighbors List Page: View a list of neighbors in the neighborhood.
-Pay to House Committee Page: Pay dues to the house committee.
-About the Site Page: Information about the purpose and features of the website.
-House Committee Reminders Page: View reminders and notices from the house committee.
-Message to Neighbors Page: Send messages to neighbors.
-Clear and Designed Interface: The site is designed to be user-friendly and visually appealing.
-Technologies Used
-Frontend:
+## Features
 
-HTML
-CSS
-JavaScript
-Backend:
+- **Neighbors List Page:** View a list of neighbors in the neighborhood.
+- **Pay to House Committee Page:** Pay dues to the house committee.
+- **About the Site Page:** Information about the purpose and features of the website.
+- **House Committee Reminders Page:** View reminders and notices from the house committee.
+- **Message to Neighbors Page:** Send messages to neighbors.
+- **Clear and Designed Interface:** The site is designed to be user-friendly and visually appealing.
 
-Flask: Python web framework for backend development.
-Installation
-Clone the repository:
+## Technologies Used
 
-bash
-Copy code
-git clone https://github.com/your_username/neighborhood-management-web-app.git
-Navigate to the project directory:
+- **Frontend:**
+  - HTML
+  - CSS
+  - JavaScript
 
-bash
-Copy code
-cd neighborhood-management-web-app
-Install dependencies:
+## Installation
 
-bash
-Copy code
-pip install -r requirements.txt
-Usage
-Run the Flask application:
+1. Clone the repository:
 
-bash
-Copy code
-python app.py
-Open a web browser and navigate to http://localhost:5000 to access the application.
+    ```bash
+    git clone https://github.com/ChayaKrashinski/HouseCommittee.git
+    ```
 
-Contributing
+2. Navigate to the project directory:
+
+    ```bash
+    cd neighborhood-management-web-app
+    ```
+
+3. Install dependencies:
+
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+## Usage
+
+1. Run the Flask application:
+
+    with live server
+
+2. Open a web browser and navigate to `http://localhost:10000` to access the application.
+
+## Contributing
+
 Contributions are welcome! If you would like to contribute to this project, please follow these steps:
 
-Fork the repository.
-Create a new branch (git checkout -b feature-new-feature).
-Make your changes.
-Commit your changes (git commit -am 'Add new feature').
-Push to the branch (git push origin feature-new-feature).
-Create a new pull request.
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature-new-feature`).
+3. Make your changes.
+4. Commit your changes (`git commit -am 'Add new feature'`).
+5. Push to the branch (`git push origin feature-new-feature`).
+6. Create a new pull request.
 
-Acknowledgments
-Hat tip to anyone whose code was used.
-Inspiration
-etc.
+
+## Acknowledgments
+
+- Hat tip to anyone whose code was used.
+- Inspiration
+- etc.
