@@ -34,11 +34,10 @@ This web application is designed to manage various tasks related to neighborhood
 
 ## Usage
 
-1. Run the Flask application:
+Run the Flask application:
 
     with live server
 
-2. Open a web browser and navigate to `http://localhost:10000` to access the application.
 
 ## Contributing
 
