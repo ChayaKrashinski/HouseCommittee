@@ -26,13 +26,7 @@ This web application is designed to manage various tasks related to neighborhood
     git clone https://github.com/ChayaKrashinski/HouseCommittee.git
     ```
 
-2. Navigate to the project directory:
-
-    ```bash
-    cd neighborhood-management-web-app
-    ```
-
-3. Install dependencies:
+2. Install dependencies:
 
     ```bash
     pip install -r requirements.txt
